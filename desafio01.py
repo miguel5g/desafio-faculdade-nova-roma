@@ -1,12 +1,12 @@
-def fatorial(valor: int) -> int:
+def fatorial(value: int) -> int:
   """
-  Recebe valor e retorna o fatorial dele
+  Recebe value e retorna o fatorial dele
   """
-  if valor < 1:
+  if value < 1:
     return 1
   else:
-    return valor * fatorial(valor - 1)
+    return value * fatorial(value - 1)
 
-entrada = int(input("Digite um número para ver o fatorial: "))
-resultado = fatorial(entrada)
-print(f"Resultado: {resultado}")
+input = int(input("Digite um número para ver o fatorial: "))
+result = fatorial(input)
+print(f"Resultado: {result}")
